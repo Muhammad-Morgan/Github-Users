@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css}\"",
-    "tailwind:build": "@tailwindcss/cli -i ./src/index.css -o ./src/tailwind.css",
+    "tailwind:build": "tailwindcss -i ./src/index.css -o ./src/tailwind.css",
     "preview": "vite preview"
   },
   "dependencies": {
